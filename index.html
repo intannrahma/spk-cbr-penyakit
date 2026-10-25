@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPK CBR Diagnosis Pertusis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>SPK CBR Diagnosis Penyakit Pertusis</h1>
+      <p>Sistem Pendukung Keputusan dengan metode Case-Based Reasoning</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Pilih Gejala</h2>
+      <p>Pilih gejala yang dialami pada kasus baru.</p>
+      <div id="daftar-gejala"></div>
+
+      <div class="actions">
+        <button id="btn-diagnosis">Proses Diagnosis</button>
+        <button id="btn-reset" class="secondary">Reset</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Hasil Diagnosis</h2>
+      <div id="hasil">
+        <p>Pilih gejala lalu tekan Proses Diagnosis.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Data Kasus Tersimpan</h2>
+      <div id="data-kasus"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>SPK CBR Pertusis | Cosine Similarity</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
